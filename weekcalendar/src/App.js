@@ -1,6 +1,6 @@
 import "./styles.css";
 import Calendar from './components/Calendar';
-import DayTimes from "./components/Day-Times";
+import DayTimes from "./components/Day-Times/Day-Times";
 
 function App() {
   return (
