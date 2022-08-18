@@ -1,6 +1,6 @@
 import "./styles.css";
 import Calendar from './components/Calendar';
-import DayTimes from "./components/Day-Times/Day-Times";
+import TimeTable from "./components/Day-Times/Day-Times";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <h1>Interview Calendar</h1>
       <br />
       <Calendar />
-      <DayTimes />
+      <TimeTable />
     </div >
   );
 }

@@ -135,7 +135,7 @@ main {
 
     background: var(--neutral-color);
     border: 1px solid var(--border-color);
-    padding-left: 5%;
+    padding-left: 10%;
 }
 
 .calendar .header {
@@ -268,4 +268,15 @@ main {
     flex-grow: 0;
     flex-basis: calc(100% / 7);
     width: calc(100% / 7);
+}
+
+@media screen and (min-width: 740px) {
+    .calendar {
+        padding-left: 5%;
+    }
+
+    .App {
+        width: 740px;
+        margin: 0 auto;
+    }
 }
